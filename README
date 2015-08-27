@@ -1,0 +1,9 @@
+# INSTALL
+
+使用 [Vundle](https://github.com/VundleVim/Vundle.vim)，在你的配置文件上添加:
+
+    if has("unix") || has("mac")
+        Plugin 'Valloric/YouCompleteMe'         "  YouCompleteMe代码补全插件
+    elseif has("win16") || has("win32")
+        Plugin 'https://github.com/scue/vim-ycm_win7.git'
+    endif
